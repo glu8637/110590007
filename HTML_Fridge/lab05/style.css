@@ -1,0 +1,19 @@
+.bluebg{
+    background-color: blue;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.table200{
+    width: 200px;
+}
+
+.table500{
+    width: 500px;
+}
+
+.button1 {
+    border-radius: 2px;
+}

@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <div>
+            <table id="thetable" class="table200 padding1">
+                <tr class="bluebg">
+                    <th>Math</th>
+                    <th>English</th>
+                    <th>Programming</th>
+                </tr>
+                <tr style="background-color:yellow" id="content">
+                    <th>90</th>
+                    <th>60</th>
+                    <th>80</th>
+                </tr>
+                <tr style="background-color:yellow" id="content2">
+                    <th>80</th>
+                    <th>86</th>
+                    <th>98</th>
+                </tr>
+            </table>
+        </div>
+        <h3>Change the table width</h3>
+        <div>
+            <button onclick="changewidth2()">200px</button>
+            <button onclick="changewidth5()">500px</button>
+        </div>
+        <h3>Change the border and spacing width</h3>
+        <div>
+            <button onclick="changepadding1()">1px</button>
+            <button onclick="changepadding10()">10px</button>
+            <button onclick="changepadding20()">20px</button>
+        </div>
+        <h3>Change the table color</h3>
+        <div>
+            <button onclick="changecolorg()" style="background-color:green" class="button1">a</button>
+            <button onclick="changecolorb()" style="background-color:blue" class="button1">b</button>
+            <button onclick="changecolorp()" style="background-color:purple" class="button1">c</button>
+            <button onclick="changecoloro()" style="background-color:orange" class="button1">d</button>
+        </div>
+        <button onclick="reset()">Reset</button>
+    </body>
+</html>

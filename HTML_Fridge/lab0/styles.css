@@ -1,0 +1,174 @@
+strong{
+    font-size:large;
+    font-weight:bold;
+    font-style:italic;
+    color: pink;
+}
+
+.center_lab{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.lab_container{
+    width:80%;
+}
+
+.floatleft{
+    float:left;
+    width:50%;
+}
+
+.floatright{
+    float:right;
+    width:50%;
+}
+
+.bg1{
+    float:right;
+    width:50%;
+    background-color:coral;
+}
+
+.bg2{
+    float:left;
+    width:50%;
+    background-color:forestgreen;
+}
+
+.bg{
+    background-color: aqua;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#menu-outer {
+  height: 84px;
+  background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+  display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+}
+
+ul#horizontal-list {
+  min-width: 696px;
+  list-style: none;
+  padding-top: 20px;
+}
+
+ul#horizontal-list li {
+  display: inline;
+}
+
+.hoverchange{
+  background-color: tan;
+}
+
+.hoverchange:hover{
+  background-color: khaki;
+}
+
+#greenbg{
+  background-color: green;
+}
+
+#pinkbg{
+  background-color: pink;
+}
+
+#orangebg{
+  background-color: orange;
+}
+
+#round{
+  border-radius: 50%;
+}
+
+#pinkbullet{
+  color:#f9a7b0;
+}
+
+#greenbullet{
+  color:green;
+}
+
+#sepia{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%);
+}
+
+.bordered{
+  border:20px solid #555;
+}
+
+table,th,td{
+  border: 1px solid black;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
